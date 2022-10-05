@@ -1,18 +1,18 @@
 databases:
-  - name: test-app-db
-    databaseName: test_db_production
-    user: test_app_user
+  - name: new-portfolio-db
+    databaseName: new_portfolio_db_production
+    user: new_portfolio_user
 
 services:
   - type: web
-    name: test-app
+    name: new-portfolio
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: test-app-db
+          name: new-portfolio-db
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
