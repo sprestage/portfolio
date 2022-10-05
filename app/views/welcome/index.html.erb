@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Ruby on Rails website demonstrating my professional work.">
+    <meta name="site_author" content="Susan M Prestage">
+
+    <title>Professional Portfolio - Susan Prestage</title>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= csrf_meta_tags %>
+
+  </head>
+
+  <body>
+
+    <div class="section-colored">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <%= yield %>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </div><!-- /.section-colored -->
+
+    <%= render 'layouts/header' %>
+
+    <%= render 'layouts/side_menu' %>
+
+    <%= render 'layouts/welcome' %>
+
+    <%= render 'layouts/blog' %>
+
+    <%= render 'layouts/skills' %>
+
+    <%= render 'layouts/projects' %>
+
+    <%= render 'layouts/volunteering' %>
+
+    <%= render 'layouts/public_speaking' %>
+
+    <%= render 'layouts/call_to_action_button' %>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <% flash.each do |key, value| %>
+            <div class="<%= flash_class(key) %>">
+              <%= value %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <%= render 'layouts/footer' %>
+
+
+  <!-- Custom JavaScript for the Side Menu - Put in a custom JS file if you want to clean this up -->
+  <script>
+      $("#menu-close").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
+      });
+  </script>
+  <script>
+      $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("active");
+      });
+  </script>
+  <script>
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+              || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+
+</html>
