@@ -1,6 +1,10 @@
 Portfolio
 =========
-This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio, particularly the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new.
+This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio.  The best of these is the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new, which is currently offline due to various sunsetting in Heroku.  The upgrade and move to Render is in progress.  August, 2023.  This change from Heroku to Render has taken down the UTDB, my tech blog, and the sunsetted Tabarah ranch site.  The plan for bringing those three back up, after this portfolio is updated is:
+- portfolio minor updates
+- move Tabarah ranch site to Render.com
+- move tech blog...this will force the decision of whether to move the techblog and eventual geekymamamare blogs to google pages, which is probably the correct answer
+- trakehner DB is working locally; what ruby/rails version?  Consider updating to rails 7?  Also, scrape new data, maybe working with Nathaniel.
 
 * Rails version 6.1.7
 
@@ -104,7 +108,7 @@ am used in production.
 ## License
 (The MIT License)
 
-Copyright © 2013-2022 Susan Prestage
+Copyright © 2013-2023 Susan Prestage
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
