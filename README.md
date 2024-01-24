@@ -1,6 +1,6 @@
 Portfolio
 =========
-This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio.  The best of these is the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new, which is currently offline due to various sunsetting in Heroku.  The upgrade and move to Render is in progress.  August, 2023.  This change from Heroku to Render has taken down the UTDB, my tech blog, and the sunsetted Tabarah ranch site.  The plan for bringing those three back up, after this portfolio is updated is:
+This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio.  The best of these is the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new, which is currently offline due to various sunsetting in Heroku.  The upgrade and move to Render is in progress.  Jan, 2024.  This change from Heroku to Render has taken down the UTDB, my tech blog, and the sunsetted Tabarah ranch site.  The plan for bringing those three back up, after this portfolio is updated is:
 - portfolio minor updates
 - move Tabarah ranch site to Render.com
 - move tech blog...this will force the decision of whether to move the techblog and eventual geekymamamare blogs to google pages, which is probably the correct answer
@@ -9,9 +9,6 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 * Rails version 6.1.7
 
 * Ruby version 2.5.1
-
-[![Build Status](https://travis-ci.org/sprestage/portfolio.png?branch=master)](https://travis-ci.org/sprestage/Portfolio) [![Code Climate](https://codeclimate.com/github/sprestage/Portfolio.png)](https://codeclimate.com/github/sprestage/Portfolio) [![Coverage Status](https://coveralls.io/repos/sprestage/Portfolio/badge.png)](https://coveralls.io/r/sprestage/Portfolio)
-[![Heroku](https://heroku-badge.herokuapp.com/?app=sprestage-portfolio)]
 
 
 ### How to run server
@@ -31,7 +28,7 @@ After doing a git clone to copy this repository from github to your local, do th
 
 Deployed
 ========
-This portfolio was previously deployed to Heroku (for rails versions 3-5) and can still be found here: http://sprestage-portfolio.herokuapp.com.  This app has been upgraded to rails 6.1.7 and configured for deployment to Render.  Oct 2022
+This portfolio was previously deployed to Heroku (for rails versions 3-5) and can still be found here: http://sprestage-portfolio.herokuapp.com.  This app has been upgraded to rails 6.1.7 and configured for deployment to Render.  The official address for this portfolio site is www.sprestage.com and on render is https://new-portfolio.onrender.com/.  Oct 2022
 
 
 Implementation as of 2016
@@ -108,7 +105,7 @@ am used in production.
 ## License
 (The MIT License)
 
-Copyright © 2013-2023 Susan Prestage
+Copyright © 2013-2024 Susan Prestage
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
