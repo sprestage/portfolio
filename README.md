@@ -6,9 +6,9 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 - move tech blog...this will force the decision of whether to move the techblog and eventual geekymamamare blogs to google pages, which is probably the correct answer
 - trakehner DB is working locally; what ruby/rails version?  Consider updating to rails 7?  Also, scrape new data, maybe working with Nathaniel.
 
-* Rails version 6.1.7
+* Rails version 7.0.8
 
-* Ruby version 2.5.1
+* Ruby version 3.1.3
 
 
 ### How to run server
