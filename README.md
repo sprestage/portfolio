@@ -1,9 +1,9 @@
 Portfolio
 =========
-This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio.  The best of these is the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new, which is currently offline due to various sunsetting in Heroku.  The upgrade and move to Render is in progress.  Jan, 2024.  This change from Heroku to Render has taken down the UTDB, my tech blog, and the sunsetted Tabarah ranch site.  The plan for bringing those three back up, after this portfolio is updated is:
-- portfolio minor updates
+This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in 2013.  Largely, this portfolio is on old showcase of my work and my capabilities of that time period.  Please see other projects in my repository to see examples that don't fit in well in the context of a professional portfolio.  The best of these is the Unofficial Trakehner Database, https://github.com/sprestage/trakehner-db-new, which is currently offline due to various sunsetting in Heroku.  The upgrade and move to Render is in progress.  Feb, 2024.  This change from Heroku to Render has taken down the UTDB, my tech blog, and the sunsetted Tabarah ranch site.  The plan for bringing those three back up, after this portfolio is updated is:
++ portfolio minor updates (DONE Feb 13, 2024)
 - move Tabarah ranch site to Render.com
-- move tech blog...this will force the decision of whether to move the techblog and eventual geekymamamare blogs to google pages, which is probably the correct answer
++ move tech blog (DONE Feb 13, 2024)
 - trakehner DB is working locally; what ruby/rails version?  Consider updating to rails 7?  Also, scrape new data, maybe working with Nathaniel.
 
 * Rails version 7.0.8
@@ -11,7 +11,7 @@ This was my Portfolio project for the CodeFellows Ruby on Rails bootcamp back in
 * Ruby version 3.1.3
 
 
-### How to run server
+### How to run this server
 After doing a git clone to copy this repository from github to your local, do the following to run the server.
 ```
 % brew update
