@@ -28,7 +28,7 @@ After doing a git clone to copy this repository from github to your local, do th
 
 Deployed
 ========
-This portfolio was previously deployed to Heroku (for rails versions 3-5) and can still be found here: http://sprestage-portfolio.herokuapp.com.  This app has been upgraded to rails 6.1.7 and configured for deployment to Render.  The official address for this portfolio site is www.sprestage.com and on render is https://new-portfolio.onrender.com/.  Oct 2022
+This portfolio was previously deployed to Heroku (for rails versions 3-5).  This app has been upgraded to rails 7.0.8 and configured for deployment to Render.  The official address for this portfolio site is www.sprestage.com and on render is https://new-portfolio.onrender.com/.  
 
 
 Implementation as of 2016
