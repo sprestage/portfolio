@@ -1,0 +1,2 @@
+module Tabarahranchtrakehners::HomeHelper
+end
