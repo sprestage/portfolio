@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   # constraints(domain: 'tabarahranchtrakehners.com') do
-  constraints(client_domain) do
+  constraints(ClientDomain) do
     namespace :tabarahranchtrakehners do
       resources :home, only: [:index]
 
