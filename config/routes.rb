@@ -1,11 +1,16 @@
+require 'client_domain'
+
 Rails.application.routes.draw do
   get 'welcome/index'
 
   root 'welcome#index'
 
-  constraints(domain: 'tabarahranchtrakehners.com') do
+  # constraints(domain: 'tabarahranchtrakehners.com') do
+  constraints(client_domain) do
     namespace :tabarahranchtrakehners do
       resources :home, only: [:index]
+
+      root to: 'home#index'
     end
   end
 end
