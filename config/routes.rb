@@ -5,13 +5,13 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  # constraints(domain: 'tabarahranchtrakehners.com') do
-  constraints(ClientDomain) do
-    namespace :tabarahranchtrakehners do
+  constraints(domain: 'tabarahranchtrakehners.com') do
+  # constraints(ClientDomain) do
+    # namespace :tabarahranchtrakehners do
       resources :home, only: [:index]
-      get '/index', to: 'client#index'
+      get '/index', to: 'home#index'
 
-      root to: 'home#index'
-    end
+      # root to: 'home#index'
+    # end
   end
 end
