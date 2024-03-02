@@ -1,12 +1,6 @@
 <div class="trakehner_horse_name">
   <h1>Tabarah Ranch Trakehners</h1>
 
-  <% if Rails.env.development? %>
-    <%= which_contact_path = tabarahranchtrakehners_contact_path %>
-  <% else %>
-    <%= which_contact_path = contact_path %>
-  <% end %>
-
   <p>If we have inspired you and you find yourself in the Pacific NorthWest,
   	please <%= link_to "contact us", contact_path %> as we would love
   	to have you out for tea and to meet our herd.  This path: <%= contact_path %></p>
