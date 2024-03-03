@@ -1,18 +1,24 @@
 class Tabarahranchtrakehners::HomeController < ApplicationController
-  layout 'tabarahranchtrakehners/application'
+  layout :set_layout
 
   def index
   end
 
-  def jaedorin_pedigree
+  def dorin_pedigree
   end
 
-  def jaegerin_pedigree
+  def gerin_pedigree
   end
 
-  def jakira_pedigree
+  def kira_pedigree
   end
 
-  def joriah_pedigree
+  def jori_pedigree
+  end
+
+  private
+
+  def set_layout
+    %w[dorin_pedigree gerin_pedigree kira_pedigree jori_pedigree].include?(action_name) ? 'tabarahranchtrakehners/no_background' : 'tabarahranchtrakehners/application'
   end
 end

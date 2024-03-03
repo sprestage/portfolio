@@ -1,8 +1,83 @@
-<div class="trakehner_horse_name">
-  <h1>Tabarah Ranch Trakehners</h1>
+<!DOCTYPE html>
 
-  <p>If we have inspired you and you find yourself in the Pacific NorthWest,
-  	please <%= link_to "contact us", contact_path %> as we would love
-  	to have you out for tea and to meet our herd.  This path: <%= contact_path %></p>
+<!-- TODO: Need to investigate making this better for mobile devices. *author's note to self -->
+<html>
+<head>
+	<title>Tabarah Ranch Trakehners</title>
+
+  <!-- Meta tags are used by many search engines to index websites.  *author's note to self -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords" content="Trakehner horses for sale warmblood bloodlines breed Washington Abdullah Herzzauber Nemo Ichi-ban dressage jumping" />
+  <meta name="description" content="Tabarah Ranch strives to breed the ideal
+  Trakehner for both the amature and professional rider while adhering to the
+  ideals of the Verband and the ATA, seeking beauty and harmony in every aspect
+  of our horses." />
+
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+<div class="tabarah">
+
+  <div id="main"> <!--begin main-->
+    <br> <br>
+
+    <div class="tabarahRanchTrakehners">  <!-- Begin Tabarah Ranch logo section -->
+    <div class="text-center">
+      <div class="my-h5"> in loving memory of </div>
+
+      <table border="0" cellpadding="0" width='100%'>
+      <tr><td>
+        <table style="border: 0px solid #000000; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td rowspan='2' width='25%' align="center">
+              <%= render 'shared/trakehner_logo' %>
+            </td>
+            <td rowspan='1' width='50%' align="center"> <div class="my-h1">Tabarah Ranch</div> </td>
+            <td rowspan='2' width='25%' align="center">
+              <%= render 'shared/trakehner_logo' %>
+            </td>
+          </tr><tr>
+            <td rowspan='1' width='50%' align="center"> <div class="my-h1">Trakehners</div> </td>
+          </tr>
+        </table>
+      </td> </tr>
+      </table>
+    </div>
+    </div> <!-- End Tabarah Ranch logo section -->
+
+  <br> <br> <br> <br>
+  <div class="my-p">
+    <p>Nestled in the Western Cascade foothills, Tabarah Ranch is a small scale,
+      family home breeding operation, offering thoughfully bred young Trakehners
+      <%= link_to "for sale", forsale_path %>.  We strive to raise the
+      right partner for both the amateur looking for the special, quality friend and
+      for the professional looking for the right partner.  Gentle, eager temperment
+      with brilliant movement are the hallmarks of our mare line.</p>
+
+    <p>Our <%= link_to "Trakehner ladies", herd_path %> represent the
+      bloodlines of Abdullah, E.H.Herzzauber, Nemo, and Ichi-Ban</p>
+
+    <p>Careful selection of the <%= link_to "foundation mare", jaegerin_path %> for
+      our still young breeding program has graced our Trakehner ladies
+      with inspection scores of 54, with the honor of high point mare at each ATA
+      inspection we have attended.</p>
+
+    <p>If we have inspired you and you find yourself in the Pacific NorthWest,
+      please <%= link_to "contact us", contact_path %> as we would love
+      to have you out for tea and to meet our herd.</p>
+    </div>
+  </div> <!--end main-->
 
 </div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46268095-4', 'tabarahranchtrakehners.com');
+  ga('send', 'pageview');
+</script>
+</html>

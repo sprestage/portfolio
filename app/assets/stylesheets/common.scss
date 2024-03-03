@@ -1,0 +1,32 @@
+.clear_div {
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+
+.copyright_notice {
+  font-size: 67%;
+}
+
+.male {
+  background-color: #CCCCCC;
+  color: #000000;
+  font-family: Arial;
+  font-size: 14pt;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+
+.female {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-size: 14pt;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}

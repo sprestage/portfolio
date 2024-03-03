@@ -1,0 +1,81 @@
+.tabarah {
+  background: asset-url('tabarah/ranchPic1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Georgia, 'Times New Roman', 'Times Roman', Times, Roman, serif;
+}
+
+.tabarah-nobackground {
+  font-family: Georgia, 'Times New Roman', 'Times Roman', Times, Roman, serif;
+}
+
+.tabarah a {
+  color: #0000EE;
+}
+
+.my-p {
+  font-weight: bold;
+}
+
+.my-h1 {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.my-h2 {
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.my-h3 {
+  font-size: 200%;
+}
+
+.my-h4 {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', 'Times Roman', Times, Roman, serif;
+}
+
+.my-h5 {
+  font-size: 200%;
+  color: #B30D0D;
+}
+
+.center {
+  text-align: center;
+}
+
+.clear_div {
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+
+.copyright_notice {
+  font-size: 67%;
+}
+
+.male {
+  background-color: #CCCCCC;
+  color: #000000;
+  font-family: Arial;
+  font-size: 14pt;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+
+.female {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-size: 14pt;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
