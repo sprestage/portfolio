@@ -1,58 +1,33 @@
-
-
-<div class="breadcrumbs"> <!-- Begin navigation (breadcrumbs) section -->
-
-<center>
-<table border="0" cellpadding="0" width='85%'>
-<tr><td>
-  <table style="border: 0px solid #000000; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-      <td rowspan='1' width='15%' align="center">
-        <div class="my-h4">
-          <% if Rails.env.development? %>
-            <%= link_to 'Home', tabarahranchtrakehners_home_path %>
-          <% else %>
-            <a href="https://www.tabarahranchtrakehners.com">Home</a>
-          <% end %>
-        </div>
-      </td>
-      <td rowspan='1' width='15%' align="center">
-        <div class="my-h4">
-          <%= link_to 'Our Herd', herd_path %>
-        </div>
-      </td>
-      <td rowspan='1' width='15%' align="center">
-        <div class="my-h4">
-          <%= link_to 'For Sale', forsale_path %>
-        </div>
-      </td>
-      <td rowspan='1' width='15%' align="center">
-        <div class="my-h4">
-          <%= link_to 'Pedigrees', pedigrees_path %>
-        </div>
-      </td>
-<!--
-      <td rowspan='1' width='15%' align="center">
-  <a href="news.html"><div class="my-h4">Latest News</div></a>
-      </td>
-      <td rowspan='1' width='15%' align="center">
-  <a href="gallery.html"><div class="my-h4">Photo Album</div></a>
-      </td>
--->
-      <td rowspan='1' width='15%' align="center">
-        <div class="my-h4">
-          <%= link_to 'Contact Us', contact_path %>
-        </div>
-      </td>
-<!--
-      <td rowspan='1' width='15%' align="center">
-  <a href="links.html"><div class="my-h4">Links</div></a>
-links (ATA, Trakehner Verband, USDF, USEF, Blessed Fields (Ichi-Ban), Meadowview (Nemo, Herrzauber), Emma Dye Dressage)
-      </>
--->
-  </table>
-</td> </tr>
-</table>
-</center>
-
+<div class="breadcrumbs text-center"> <!-- Begin navigation (breadcrumbs) section -->
+  <div class="navbar">
+    <div class="navbar-item">
+      <div class="my-h4">
+        <% if Rails.env.development? %>
+          <%= link_to 'Home', tabarahranchtrakehners_home_path %>
+        <% else %>
+          <a href="https://www.tabarahranchtrakehners.com">Home</a>
+        <% end %>
+      </div>
+    </div>
+    <div class="navbar-item">
+      <div class="my-h4">
+        <%= link_to 'Our Herd', herd_path %>
+      </div>
+    </div>
+    <div class="navbar-item">
+      <div class="my-h4">
+        <%= link_to 'For Sale', forsale_path %>
+      </div>
+    </div>
+    <div class="navbar-item">
+      <div class="my-h4">
+        <%= link_to 'Pedigrees', pedigrees_path %>
+      </div>
+    </div>
+    <div class="navbar-item">
+      <div class="my-h4">
+        <%= link_to 'Contact Us', contact_path %>
+      </div>
+    </div>
+  </div>
 </div> <!-- End navigation (breadcrumbs) section -->

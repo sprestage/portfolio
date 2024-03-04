@@ -1,5 +1,5 @@
-<div class="my-h1"><!DOCTYPE html>
-<!-- TODO: Need to investigate making this better for mobile devices. -->
+<!DOCTYPE html>
+
 <html>
 <head>
   <title>For Sale</title>
@@ -20,16 +20,18 @@
     <br> <br>
     <div class="text-center">
       <div class="my-h1">For Sale</div>
-      <p>
-        <br> <br>
-        <%= link_to image_tag('tabarah/jori_2011_inspection_head4_cropped.jpg',
-                              width: '281', height: ' 300',
-                              :alt => "A picture of Joriah"), joriah_path %>
-        <br>
-        <%= link_to "Joriah", joriah_path %>
-        <br>
-        <%= link_to "2008 Jägerin x Ichi Ban daughter", joriah_path %>
-      </p>
+      <div class="my-p">
+        <p>
+          <br> <br>
+          <%= link_to image_tag('tabarah/jori_2011_inspection_head4_cropped.jpg',
+                                width: '281', height: ' 300',
+                                :alt => "A picture of Joriah"), joriah_path %>
+          <br>
+          <%= link_to "Joriah", joriah_path %>
+          <br>
+          <%= link_to "2008 Jägerin x Ichi Ban daughter", joriah_path %>
+        </p>
+      </div>
     </div>
   </div>
 </body>
